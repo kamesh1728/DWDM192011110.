@@ -1,0 +1,33 @@
+> classA <- c(76, 35, 47, 64, 95, 66, 89, 36, 84)
+> classB <- c(51, 56, 84, 60, 59, 70, 63, 66, 50)
+> combined_data <- data.frame(Class = rep(c("Class A", "Class B"), each = c(length(classA), length(classB))),Score = c(classA, classB))
+> mean_classA <- mean(classA)
+> median_classA <- median(classA)
+> range_classA <- diff(range(classA))
+> mean_classB <- mean(classB)
+> median_classB <- median(classB)
+> range_classB <- diff(range(classB))
+> cat("Class A:\n")
+Class A:
+> cat("Mean:", mean_classA, "\n")
+Mean: 65.77778 
+> cat("Median:", median_classA, "\n")
+Median: 66 
+> cat("Range:", range_classA, "\n")
+Range: 60 
+> cat("\nClass B:\n")
+
+Class B:
+> cat("Mean:", mean_classB, "\n")
+Mean: 62.11111 
+> cat("Median:", median_classB, "\n")
+Median: 60 
+> cat("Range:", range_classB, "\n")
+Range: 34 
+> boxplot_plot <- ggplot(combined_data, aes(x = Class, y = Score, fill = Class)) +
++   geom_boxplot() +
++   labs(title = "Boxplot of Exam Scores for Class A and Class B",
++        x = "Class",
++        y = "Exam Scores",
++        fill = "Class")
+> print(boxplot_plot)

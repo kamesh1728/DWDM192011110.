@@ -1,0 +1,690 @@
+output:
+=== Run information ===
+
+Scheme:       weka.clusterers.EM -I 100 -N -1 -X 10 -max -1 -ll-cv 1.0E-6 -ll-iter 1.0E-6 -M 1.0E-6 -K 10 -num-slots 1 -S 100
+Relation:     supermarket
+Instances:    4627
+Attributes:   217
+              [list of attributes omitted]
+Test mode:    evaluate on training data
+
+
+=== Clustering model (full training set) ===
+
+
+EM
+==
+
+Number of clusters selected by cross validation: 1
+Number of iterations performed: 1
+
+
+                  Cluster
+Attribute               0
+                      (1)
+==========================
+department1
+  t                   4628
+  [total]             4628
+department2
+  t                   4628
+  [total]             4628
+department3
+  t                   4628
+  [total]             4628
+department4
+  t                   4628
+  [total]             4628
+department5
+  t                   4628
+  [total]             4628
+department6
+  t                   4628
+  [total]             4628
+department7
+  t                   4628
+  [total]             4628
+department8
+  t                   4628
+  [total]             4628
+department9
+  t                   4628
+  [total]             4628
+grocery misc
+  t                   4628
+  [total]             4628
+department11
+  t                   4628
+  [total]             4628
+baby needs
+  t                   4628
+  [total]             4628
+bread and cake
+  t                   4628
+  [total]             4628
+baking needs
+  t                   4628
+  [total]             4628
+coupons
+  t                   4628
+  [total]             4628
+juice-sat-cord-ms
+  t                   4628
+  [total]             4628
+tea
+  t                   4628
+  [total]             4628
+biscuits
+  t                   4628
+  [total]             4628
+canned fish-meat
+  t                   4628
+  [total]             4628
+canned fruit
+  t                   4628
+  [total]             4628
+canned vegetables
+  t                   4628
+  [total]             4628
+breakfast food
+  t                   4628
+  [total]             4628
+cigs-tobacco pkts
+  t                   4628
+  [total]             4628
+cigarette cartons
+  t                   4628
+  [total]             4628
+cleaners-polishers
+  t                   4628
+  [total]             4628
+coffee
+  t                   4628
+  [total]             4628
+sauces-gravy-pkle
+  t                   4628
+  [total]             4628
+confectionary
+  t                   4628
+  [total]             4628
+puddings-deserts
+  t                   4628
+  [total]             4628
+dishcloths-scour
+  t                   4628
+  [total]             4628
+deod-disinfectant
+  t                   4628
+  [total]             4628
+frozen foods
+  t                   4628
+  [total]             4628
+razor blades
+  t                   4628
+  [total]             4628
+fuels-garden aids
+  t                   4628
+  [total]             4628
+spices
+  t                   4628
+  [total]             4628
+jams-spreads
+  t                   4628
+  [total]             4628
+insecticides
+  t                   4628
+  [total]             4628
+pet foods
+  t                   4628
+  [total]             4628
+laundry needs
+  t                   4628
+  [total]             4628
+party snack foods
+  t                   4628
+  [total]             4628
+tissues-paper prd
+  t                   4628
+  [total]             4628
+wrapping
+  t                   4628
+  [total]             4628
+dried vegetables
+  t                   4628
+  [total]             4628
+pkt-canned soup
+  t                   4628
+  [total]             4628
+soft drinks
+  t                   4628
+  [total]             4628
+health food other
+  t                   4628
+  [total]             4628
+beverages hot
+  t                   4628
+  [total]             4628
+health&beauty misc
+  t                   4628
+  [total]             4628
+deodorants-soap
+  t                   4628
+  [total]             4628
+mens toiletries
+  t                   4628
+  [total]             4628
+medicines
+  t                   4628
+  [total]             4628
+haircare
+  t                   4628
+  [total]             4628
+dental needs
+  t                   4628
+  [total]             4628
+lotions-creams
+  t                   4628
+  [total]             4628
+sanitary pads
+  t                   4628
+  [total]             4628
+cough-cold-pain
+  t                   4628
+  [total]             4628
+department57
+  t                   4628
+  [total]             4628
+meat misc
+  t                   4628
+  [total]             4628
+cheese
+  t                   4628
+  [total]             4628
+chickens
+  t                   4628
+  [total]             4628
+milk-cream
+  t                   4628
+  [total]             4628
+cold-meats
+  t                   4628
+  [total]             4628
+deli gourmet
+  t                   4628
+  [total]             4628
+margarine
+  t                   4628
+  [total]             4628
+salads
+  t                   4628
+  [total]             4628
+small goods
+  t                   4628
+  [total]             4628
+dairy foods
+  t                   4628
+  [total]             4628
+fruit drinks
+  t                   4628
+  [total]             4628
+delicatessen misc
+  t                   4628
+  [total]             4628
+department70
+  t                   4628
+  [total]             4628
+beef
+  t                   4628
+  [total]             4628
+hogget
+  t                   4628
+  [total]             4628
+lamb
+  t                   4628
+  [total]             4628
+pet food
+  t                   4628
+  [total]             4628
+pork
+  t                   4628
+  [total]             4628
+poultry
+  t                   4628
+  [total]             4628
+veal
+  t                   4628
+  [total]             4628
+gourmet meat
+  t                   4628
+  [total]             4628
+department79
+  t                   4628
+  [total]             4628
+department80
+  t                   4628
+  [total]             4628
+department81
+  t                   4628
+  [total]             4628
+produce misc
+  t                   4628
+  [total]             4628
+fruit
+  t                   4628
+  [total]             4628
+plants
+  t                   4628
+  [total]             4628
+potatoes
+  t                   4628
+  [total]             4628
+vegetables
+  t                   4628
+  [total]             4628
+flowers
+  t                   4628
+  [total]             4628
+department88
+  t                   4628
+  [total]             4628
+department89
+  t                   4628
+  [total]             4628
+variety misc
+  t                   4628
+  [total]             4628
+brushware
+  t                   4628
+  [total]             4628
+electrical
+  t                   4628
+  [total]             4628
+haberdashery
+  t                   4628
+  [total]             4628
+kitchen
+  t                   4628
+  [total]             4628
+manchester
+  t                   4628
+  [total]             4628
+pantyhose
+  t                   4628
+  [total]             4628
+plasticware
+  t                   4628
+  [total]             4628
+department98
+  t                   4628
+  [total]             4628
+stationary
+  t                   4628
+  [total]             4628
+department100
+  t                   4628
+  [total]             4628
+department101
+  t                   4628
+  [total]             4628
+department102
+  t                   4628
+  [total]             4628
+prepared meals
+  t                   4628
+  [total]             4628
+preserving needs
+  t                   4628
+  [total]             4628
+condiments
+  t                   4628
+  [total]             4628
+cooking oils
+  t                   4628
+  [total]             4628
+department107
+  t                   4628
+  [total]             4628
+department108
+  t                   4628
+  [total]             4628
+department109
+  t                   4628
+  [total]             4628
+department110
+  t                   4628
+  [total]             4628
+department111
+  t                   4628
+  [total]             4628
+department112
+  t                   4628
+  [total]             4628
+department113
+  t                   4628
+  [total]             4628
+department114
+  t                   4628
+  [total]             4628
+health food bulk
+  t                   4628
+  [total]             4628
+department116
+  t                   4628
+  [total]             4628
+department117
+  t                   4628
+  [total]             4628
+department118
+  t                   4628
+  [total]             4628
+department119
+  t                   4628
+  [total]             4628
+department120
+  t                   4628
+  [total]             4628
+bake off products
+  t                   4628
+  [total]             4628
+department122
+  t                   4628
+  [total]             4628
+department123
+  t                   4628
+  [total]             4628
+department124
+  t                   4628
+  [total]             4628
+department125
+  t                   4628
+  [total]             4628
+department126
+  t                   4628
+  [total]             4628
+department127
+  t                   4628
+  [total]             4628
+department128
+  t                   4628
+  [total]             4628
+department129
+  t                   4628
+  [total]             4628
+department130
+  t                   4628
+  [total]             4628
+small goods2
+  t                   4628
+  [total]             4628
+offal
+  t                   4628
+  [total]             4628
+mutton
+  t                   4628
+  [total]             4628
+trim pork
+  t                   4628
+  [total]             4628
+trim lamb
+  t                   4628
+  [total]             4628
+imported cheese
+  t                   4628
+  [total]             4628
+department137
+  t                   4628
+  [total]             4628
+department138
+  t                   4628
+  [total]             4628
+department139
+  t                   4628
+  [total]             4628
+department140
+  t                   4628
+  [total]             4628
+department141
+  t                   4628
+  [total]             4628
+department142
+  t                   4628
+  [total]             4628
+department143
+  t                   4628
+  [total]             4628
+department144
+  t                   4628
+  [total]             4628
+department145
+  t                   4628
+  [total]             4628
+department146
+  t                   4628
+  [total]             4628
+department147
+  t                   4628
+  [total]             4628
+department148
+  t                   4628
+  [total]             4628
+department149
+  t                   4628
+  [total]             4628
+department150
+  t                   4628
+  [total]             4628
+department151
+  t                   4628
+  [total]             4628
+department152
+  t                   4628
+  [total]             4628
+department153
+  t                   4628
+  [total]             4628
+department154
+  t                   4628
+  [total]             4628
+department155
+  t                   4628
+  [total]             4628
+department156
+  t                   4628
+  [total]             4628
+department157
+  t                   4628
+  [total]             4628
+department158
+  t                   4628
+  [total]             4628
+department159
+  t                   4628
+  [total]             4628
+department160
+  t                   4628
+  [total]             4628
+department161
+  t                   4628
+  [total]             4628
+department162
+  t                   4628
+  [total]             4628
+department163
+  t                   4628
+  [total]             4628
+department164
+  t                   4628
+  [total]             4628
+department165
+  t                   4628
+  [total]             4628
+department166
+  t                   4628
+  [total]             4628
+department167
+  t                   4628
+  [total]             4628
+department168
+  t                   4628
+  [total]             4628
+department169
+  t                   4628
+  [total]             4628
+department170
+  t                   4628
+  [total]             4628
+department171
+  t                   4628
+  [total]             4628
+department172
+  t                   4628
+  [total]             4628
+department173
+  t                   4628
+  [total]             4628
+department174
+  t                   4628
+  [total]             4628
+department175
+  t                   4628
+  [total]             4628
+department176
+  t                   4628
+  [total]             4628
+department177
+  t                   4628
+  [total]             4628
+department178
+  t                   4628
+  [total]             4628
+department179
+  t                   4628
+  [total]             4628
+casks white wine
+  t                   4628
+  [total]             4628
+casks red wine
+  t                   4628
+  [total]             4628
+750ml white nz
+  t                   4628
+  [total]             4628
+750ml red nz
+  t                   4628
+  [total]             4628
+750ml white imp
+  t                   4628
+  [total]             4628
+750ml red imp
+  t                   4628
+  [total]             4628
+sparkling nz
+  t                   4628
+  [total]             4628
+sparkling imp
+  t                   4628
+  [total]             4628
+brew kits/accesry
+  t                   4628
+  [total]             4628
+department189
+  t                   4628
+  [total]             4628
+port and sherry
+  t                   4628
+  [total]             4628
+ctrled label wine
+  t                   4628
+  [total]             4628
+department192
+  t                   4628
+  [total]             4628
+department193
+  t                   4628
+  [total]             4628
+department194
+  t                   4628
+  [total]             4628
+department195
+  t                   4628
+  [total]             4628
+department196
+  t                   4628
+  [total]             4628
+department197
+  t                   4628
+  [total]             4628
+department198
+  t                   4628
+  [total]             4628
+department199
+  t                   4628
+  [total]             4628
+non host support
+  t                   4628
+  [total]             4628
+department201
+  t                   4628
+  [total]             4628
+department202
+  t                   4628
+  [total]             4628
+department203
+  t                   4628
+  [total]             4628
+department204
+  t                   4628
+  [total]             4628
+department205
+  t                   4628
+  [total]             4628
+department206
+  t                   4628
+  [total]             4628
+department207
+  t                   4628
+  [total]             4628
+department208
+  t                   4628
+  [total]             4628
+department209
+  t                   4628
+  [total]             4628
+department210
+  t                   4628
+  [total]             4628
+department211
+  t                   4628
+  [total]             4628
+department212
+  t                   4628
+  [total]             4628
+department213
+  t                   4628
+  [total]             4628
+department214
+  t                   4628
+  [total]             4628
+department215
+  t                   4628
+  [total]             4628
+department216
+  t                   4628
+  [total]             4628
+total
+  low                 2949
+  high                1680
+  [total]             4629
+
+
+Time taken to build model (full training data) : 5.45 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0      4627 (100%)
+
+
+Log likelihood: -0.65505
+

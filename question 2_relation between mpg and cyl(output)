@@ -1,0 +1,9 @@
+data(mtcars)
+> boxplot_plot <- ggplot(mtcars, aes(x = as.factor(cyl), y = mpg, fill = as.factor(cyl))) +
++   geom_boxplot() +
++   scale_fill_manual(values = c("#66c2a5", "#fc8d62", "#8da0cb")) +  # Color options for different cylinder counts
++   labs(title = "Boxplot of MPG by Number of Cylinders",
++        x = "Number of Cylinders",
++        y = "Miles Per Gallon")
+> ggsave("boxplot_mpg_vs_cyl.png", plot = boxplot_plot, width = 8, height = 6)
+> print(boxplot_plot)
